@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----header----- */
+.sup {
+    width: 100%;
+    background-color: #DDDDDD;
+}
+
+.sup ul {
+    max-width: 980px;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+    place-content: center;
+    font-size: 15px;
+    justify-content: flex-end;
+}
+
+.sup ul li {
+    margin: 0 8px;
+}
+
+/* ---------- */
+
+.thanhdieuhuong {
+    max-width: 980px;
+    max-height: 72px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.thanhdieuhuong ul {
+    list-style: none;
+    display: flex;
+    color: #25AAE2;
+    height: 72px;
+    line-height: 72px;
+}
+
+/* nav li {
+    padding: 0 10px;
+} */
+
+.thanhdieuhuong img {
+    padding: 12px 0;
+    width: 160px;
+    height: 48px;
+}
+
+.thanhdieuhuong .left {
+    width: 60%;
+}
+
+.thanhdieuhuong .left p {
+    padding: 0 10px;
+}
+
+.thanhdieuhuong .right {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thanhdieuhuong .right li {
+    padding: 0 10px;
+}
+
+.thanhdieuhuong .right i {
+    font-size: 20px;
+}
+
+.thanhdieuhuong .right li:nth-child(1) {
+    position: relative;
+}
+
+.thanhdieuhuong .right li:nth-child(1) input {
+    width: 220px;
+    height: 20px;
+    outline: none;
+    font-size: 12px;
+    border: none;
+    border-bottom: #25AAE2 solid 2px;
+
+}
+
+.thanhdieuhuong .right li:nth-child(1) i {
+    position: absolute;
+    font-size: 20px;
+    line-height: 72px;
+    cursor: pointer;
+    right: 11px;
+}
+
+/* -----nav----- */
+
+nav {
+    max-width: 505px;
+    padding: 26px 24px;
+    margin: 36px auto;
+    /* background: #25AAE2; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+             rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+}
+
+nav .dangnhap {
+    height: 420px;
+    margin: 16px auto;
+}
+
+nav p {
+    font-size: 22px;
+    line-height: 26px;
+    color: #333;
+    padding: 0 0px 34px;
+}
+
+.number,
+.pass {
+    margin: 16px auto;
+}
+
+nav input {
+    border: 1px solid #D9D9D9;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    width: 95%;
+    padding-left: 22px;
+    height: 40px;
+    outline: none;
+}
+
+.show {
+    margin: 2px auto;
+}
+
+#check {
+    width: 18px;
+    height: 18px;
+    margin: 4px auto;
+}
+
+.pass .showpass {
+    width: 18px;
+    height: 18px;
+    margin: 4px auto;
+}
+
+.btni {
+    font-size: 14px;
+    color: #fff !important;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #25AAE2;
+    cursor: pointer;
+    padding: 14px 20px;
+    width: 100%;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.titledk {
+    margin-top: 5px;
+}
+
+.titledk span {
+    background: #fff;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    color: #999;
+    text-align: justify;
+}
+
+.titledk span a {
+    font-size: 12px;
+    color: #0095ff;
+}
+
+.dangnhap .or {
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.or hr {
+    width: 40%;
+    height: 1px;
+    background-color: #000;
+    border: none;
+    margin-top: 7px;
+}
+
+.or span {
+    width: 20%;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button {
+    width: 48%;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #fff;
+    border: #000 solid 1px;
+}
+
+.btn img {
+    margin-right: 6px;
+}
+
+.a {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.a a {
+    text-decoration:none;
+    color: #000;
+}
+
+.a span {
+    color: #25AAE2;
+    margin-left: 6px;
+}
+
+/* ---------footer---------- */
+
+footer {
+    background-color: #333333;
+    color: #fff;
+}
+
+.bao-footer {
+    max-width: 980px;
+    height: 290px;
+    margin: auto;
+}
+
+.boc-footer {
+    display: flex;
+}
+
+.li-footer {
+    padding: 60px 14px;
+}
+
+.text-footer h3 {
+    font-size: 16px;
+}
+
+.text-footer ul {
+    font-size: 13px;
+    padding: 5px 0px 0px 16px;  
+}
+
+.text-footer ul li {
+    line-height: 1.5;
+}
+.btn-flowing {
+    line-height: 40px;
+}
+
+.btn-flowing input {
+    width: 68%;
+    height: 40px;
+    padding-left: 6px;
+    border: none;
+    outline: none;
+}
+
+.btn-flowing button {
+    width: 30%;
+    height: 40px;
+    background-color: #25AAE2;
+    color: #fff;
+    border: none;
+    margin-left: -5px;
+}

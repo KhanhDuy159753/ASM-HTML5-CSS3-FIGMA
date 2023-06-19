@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài ASM Html5 & Css3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="Icon-Khanh-Duy-removebg.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="sup">
+            <ul>
+                <li><i class="fas fa-phone-volume" style="color: #000;"></i>1900 8484</li>
+                <li><i class="fas fa-headset" style="color: #000000;"></i>Trợ giúp</li>
+                <li>
+                    <p>Hệ thống cửa hàng</p>
+                </li>
+                <li><i class="fas fa-globe-africa"></i>VIE<i class="fas fa-angle-down"></i></li>
+            </ul>
+        </div>
+
+        <div class="thanhdieuhuong">
+            <div class="left">
+                <ul>
+                    <li><img src="Icon-Khanh-Duy-removebg-preview.png" alt="logo"></li>
+                    <li>
+                        <p>NAM </p>
+                    </li>|
+                    <li>
+                        <p>NỮ </p>
+                    </li>|
+                    <li>
+                        <p>BỘ SƯU TẬP</p>
+                    </li>|
+                    <li>
+                        <p>XEM TẤT CẢ</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><input type="text" placeholder="Tìm kiếm..."><i class="fas fa-search"
+                            style="color: #25AAE2;"></i></li>
+                    <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                    <li><a href="login.html"><i class="fas fa-user-circle" style="color: #25AAE2;"></i></a></i></li>
+                    <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <nav>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="img" src="https://im.uniqlo.com/global-cms/spa/resed1f748a8a62c8631bc6cb2f3551b233fr.jpg">
+                <!-- <div class="text">Caption Text</div> -->
+                <div class="bannercontent">
+                    <div class="textbanner">
+                        <h2 class="title" style="display: block;">Vải nhanh khô cho phép dễ dàng di chuyển.</h2>
+                        <div class="product-name">Quần Dry Easy Short Co Giãn</div>
+                        <div>
+                            <div class="fr-product-price white">
+                                <div class="fr-product-price-info">
+                                    <div class="price fr-no-uppercase" data-test="price"><span
+                                            class="price-original">399.000 VND</span></div>
+                                </div>
+                            </div>
+                            <div class="buynow">
+                                <button class="secondary">Mua ngay</button>
+                                <!-- <span class="second">Mua ngay</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="img" src="https://im.uniqlo.com/global-cms/spa/res2388cafae032a2125e66e05733ce5614fr.jpg">
+                <!-- <div class="text">Caption Two</div> -->
+                <div class="bannercontent">
+                    <div class="textbanner">
+                        <h2 class="title" style="display: block;">Chất vải thoải mái, màu sắc đa dạng.</h2>
+                        <div class="product-name">Quần Easy Short</div>
+                        <div>
+                            <div class="fr-product-price white">
+                                <div class="fr-product-price-info">
+                                    <div class="price fr-no-uppercase" data-test="price"><span
+                                            class="price-original">299.000 VND</span></div>
+                                </div>
+                            </div>
+                            <div class="buynow">
+                                <button class="secondary">Mua ngay</button>
+                                <!-- <span class="second">Mua ngay</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class="img" src="https://im.uniqlo.com/global-cms/spa/res8b3b8ff2316d6f8ff2c123040011d3b4fr.jpg">
+                <!-- <div class="text">Caption Three</div> -->
+                <div class="bannercontent">
+                    <div class="textbanner">
+                        <h2 class="title" style="display: block;">Co giãn hoàn hảo, dễ dàng trong mọi chuyển động. </h2>
+                        <div class="product-name">Quần Ống Suông Vải Waffle Siêu Co Giãn</div>
+                        <div>
+                            <div class="fr-product-price white">
+                                <div class="fr-product-price-info">
+                                    <div class="price fr-no-uppercase" data-test="price"><span
+                                            class="price-original">499.000 VND</span></div>
+                                </div>
+                            </div>
+                            <div class="buynow">
+                                <button class="secondary">Mua ngay</button>
+                                <!-- <span class="second">Mua ngay</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"> ❮ </a>
+            <a class="next" onclick="plusSlides(1)"> ❯ </a>
+
+            <div class="nutdot" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <div class="sale">
+                <img style="max-width: 980px; width: 100%;"
+                    src="https://im.uniqlo.com/global-cms/spa/rese2975252f3d853777341246a031bd66cfr.jpg" alt="">
+            </div>
+            <script src="index.js"></script>
+    </nav>
+
+    <section>
+        <div class="doanhmuc">
+            <div class="texth2">
+                <h2>DOANH MỤC NỔI BẬT</h2>
+            </div>
+        </div>
+        <div class="dmuc">
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res4834fdd5cdf58a93a28010d6a3757696fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ĐỒ MẶC NGOÀI</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res9fc25ae2875affafa76990a605cefb5dfr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ÁO SƠ MI</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/resf3d9c854951fe4ec9add3b2f545cd410fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ÁO THUN</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res387115447eca49c744f29e9d6d268987fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ÁO POLO</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res0f532481e1253864af9d6c30abe3f707fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>QUẦN DÀI</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res6fb8419fb0b905a1659bf52fff173450fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>QUẦN SHORT</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/resb8e1122fad5f4cf2b749214c1d7d81fbfr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ĐỒ MẶC NHÀ</span>
+                </div>
+            </div>
+
+            <div class="dmuc-con">
+                <div class="image">
+                    <img src="https://im.uniqlo.com/global-cms/spa/res54eec6ab75c5c0fdfd418f11a4c46363fr.jpg" alt="">
+                </div>
+                <div class="thongtin">
+                    <span>ĐỒ MẶC TRONG</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <div class="doanh-muc">
+            <div class="text-h2">
+                <h2>SẢN PHẨM MỚI</h2>
+            </div>
+        </div>
+
+        <div class="cacsanpham">
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://aristino.com/Data/ResizeImage/images/product/so-mi-ngan-tay/assr29s3/NTC_0749x900x900x4.webp"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Áo sơ mi ngắn tay Aristino ASSR29</p>
+                    <div class="gia-ico">
+                        <span>750.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/462674/item/vngoods_56_462674.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>AIRism Quần Jogger Siêu Co Giãn</p>
+                    <div class="gia-ico">
+                        <span>499.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://aristino.com/Data/ResizeImage/images/product/so-mi-ngan-tay/assr35/_TC_6518x900x900x4.webp"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Áo sơ mi ngắn tay Aristino ASSR35</p>
+                    <div class="gia-ico">
+                        <span>695.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/462169/item/vngoods_07_462169.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Louvre UT Áo Thun Ngắn Tay</p>
+                    <div class="gia-ico">
+                        <span>399.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/456788/sub/vngoods_456788_sub1.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Áo Khoác Dry-EX Kéo Khóa Chống UV</p>
+                    <div class="gia-ico">
+                        <span>699.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/455737/item/vngoods_69_455737.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Áo Kiểu Vải Rayon Ngắn Tay</p>
+                    <div class="gia-ico">
+                        <span>499.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/463396/sub/vngoods_463396_sub8.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Quần Jeans Baggy Cạp Thấp</p>
+                    <div class="gia-ico">
+                        <span>999.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461053/sub/goods_461053_sub3.jpg?width=750"
+                        alt="">
+                </div>
+                <div class="textsanpham">
+                    <p>Túi Bán Nguyệt Mini Đeo Chéo</p>
+                    <div class="gia-ico">
+                        <span>299.000đ</span>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="xemthem">
+            <button class="nut-xemthem">XEM THÊM</button>
+        </div>
+
+        <div class="doanh-muc">
+            <div class="text-h2">
+                <h2>ƯU ĐÃI ĐỒNG GIÁ</h2>
+            </div>
+        </div>
+
+        <div class="cacsanpham">
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <div class="SALE-sanpham">
+                        <img src="png-transparent-sale-text-illustration-sales-promotion-discounts-and-allowances-gratis-logo-sale-corner-sticker-text-label-service.png" alt="">
+                    </div>
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/447780/item/vngoods_05_447780.jpg?width=750"
+                        alt="">
+                </div>
+                
+                <div class="textsanpham">
+                    <p>AirSense Quần Dài Co Giãn 2 Chiều (Siêu Nhẹ)</p>
+                    <div class="gia-ico-sale">
+                        <span>799.000đ</span><del>999.000đ</del>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <div class="SALE-sanpham">
+                        <img src="png-transparent-sale-text-illustration-sales-promotion-discounts-and-allowances-gratis-logo-sale-corner-sticker-text-label-service.png" alt="">
+                    </div>
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/454318/item/vngoods_09_454318.jpg?width=750"
+                        alt="">
+                </div>
+                
+                <div class="textsanpham">
+                    <p>AIRism Áo Ba Lỗ Vải Mắt Lưới Khử Mùi</p>
+                    <div class="gia-ico-sale">
+                        <span>199.000đ</span><del>249.00</del>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <div class="SALE-sanpham">
+                        <img src="png-transparent-sale-text-illustration-sales-promotion-discounts-and-allowances-gratis-logo-sale-corner-sticker-text-label-service.png" alt="">
+                    </div>
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/455420/item/vngoods_11_455420.jpg?width=750"
+                        alt="">
+                </div>
+                
+                <div class="textsanpham">
+                    <p>AIRism Cotton Pyjama (Ngắn Tay)</p>
+                    <div class="gia-ico-sale">
+                        <span>499.000đ</span><del>599.000đ</del>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sanpham">
+                <div class="image-sanpham">
+                    <div class="SALE-sanpham">
+                        <img src="png-transparent-sale-text-illustration-sales-promotion-discounts-and-allowances-gratis-logo-sale-corner-sticker-text-label-service.png" alt="">
+                    </div>
+                    <img src="https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/457882/item/vngoods_01_457882.jpg?width=750"
+                        alt="">
+                </div>
+                
+                <div class="textsanpham">
+                    <p>Đầm Không Tay In Họa Tiết Hoa Vải Rayon</p>
+                    <div class="gia-ico-sale">
+                        <span>499.000đ</span><del>599.000đ</del>
+                        <div class="ico">
+                            <li><i class="far fa-heart" style="color: #25AAE2;"></i></li>
+                            <li><i class="fas fa-shopping-cart" style="color: #25AAE2;"></i></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="xemthem">
+            <button class="nut-xemthem">XEM THÊM</button>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="bao-footer">
+            <div class="boc-footer">
+                <div class="li-footer">
+                    <div class="text-footer">
+                        <h3>VỀ CHÚNG TÔI</h3>
+                        <ul>
+                            <li>Thông tin</li>
+                            <li>Quan điểm kinh doanh</li>
+                            <li>Bản quyền & chủ sở hữu</li>
+                            <li>Danh sách cửa hàng</li>
+                            <li>Tin tức </li>
+                            <li>Liên hệ</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="li-footer">
+                    <div class="text-footer">
+                        <h3>CHÍNH SÁCH</h3>
+                        <ul>
+                            <li>Chính sách khách hàng thân thiết</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo hành</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Câu hỏi thường gặp</li>
+                            <li>Hướng dẫn mua hàng online</li>
+                            <li>Hướng dẫn kiểm tra hạng thẻ thành viên</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="li-footer">
+                    <div class="text-footer">
+                        <h3>TƯ VẤN & TRỢ GIÚP</h3>
+                        <ul>
+                            <li>Tư vấn phong cách</li>
+                            <li>Tư vấn chọn size</li>
+                            <li>Phương thức thanh toán</li>
+                            <li>Hỏi đáp</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="li-footer">
+                    <div class="text-footer">
+                        <div class="tieude">
+                            <h3>THEO DÕI BẢNG TIN CỦA CHÚNG TÔI</h3>
+                        </div>
+                        <div class="btn-flowing">
+                            <input type="email" placeholder="Nhập email của bạn..." required>
+                            <button type="submit" value="ĐĂNG KÝ">ĐĂNG KÝ</button>
+                        </div>
+                        <div class="knoi">
+                            <p style="line-height: 36px;">Kết nối với chúng tôi</p>
+                            <div class="icon">
+                                <img width="32" height="32" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+                                <img width="32" height="32" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                                <img width="32" height="32" src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play"/>
+                                <img width="32" height="32" src="https://img.icons8.com/ios-filled/50/tiktok--v1.png" alt="tiktok--v1"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
