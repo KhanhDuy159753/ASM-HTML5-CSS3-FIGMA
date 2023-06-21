@@ -14,8 +14,8 @@ function saveData() {
 }
 
 window.onload = function () {
-    var email = document.getElementById("Email");
-    var password = document.getElementById("pass");
+    var email = localStorage.getItem("Email");
+    var password = localStorage.getItem("pass");
     if (email !== null && password !== null) {
         document.getElementById("Email").value = email;
         document.getElementById("password").value = password;
