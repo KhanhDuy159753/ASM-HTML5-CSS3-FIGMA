@@ -12,3 +12,13 @@ function saveData() {
     localStorage.setItem("pass", password);
     alert("Đăng nhập thành công!");
 }
+
+window.onload = function () {
+    var email = document.getElementById("Email");
+    var password = document.getElementById("pass");
+    if (email !== null && password !== null) {
+        document.getElementById("Email").value = email;
+        document.getElementById("password").value = password;
+        alert("Chào mừng trở lại, " + email + "!");
+    }
+}
